@@ -40,6 +40,8 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
+    angular_rails_csrf (2.1.0)
+      railties (>= 3, <= 5.1)
     arel (8.0.0)
     bindex (0.5.0)
     bower-rails (0.11.0)
@@ -176,6 +178,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  angular_rails_csrf
   bower-rails
   byebug
   capybara (~> 2.13.0)
